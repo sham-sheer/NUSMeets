@@ -10,4 +10,6 @@ Template.learn.created = function () {
 
   // Subscribe to all published courses
   instance.subscribe("publishedCourses");
+  // Subscribe to all pulished images
+  instance.subscribe('images');
 };

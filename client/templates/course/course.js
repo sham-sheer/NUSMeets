@@ -21,7 +21,8 @@ Template.course.helpers({
     var instance = Template.instance();
 
     // Get current course
-    var course = Courses.findOne(instance.courseId);
+    var course = new ReactiveVar();
+    course = Courses.findOne(instance.courseId);
 
     return course;
   }

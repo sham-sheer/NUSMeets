@@ -8,6 +8,9 @@ Courses.helpers({
   'coverImage': function() {
     // Get the cover image from Images collection
     return image = Images.findOne(this.coverImageId);
+  },
+  'likedUsers' : function() {
+    return user = Likes.find({'courseId':this._id});
   }
 });
 

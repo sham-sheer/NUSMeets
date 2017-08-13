@@ -5,9 +5,9 @@
                 {{ mf 'courseToolbarTabs-courseMaterialTabText' 'Course material' }}
             </a>
         </li>
-        <li class="{{ isActiveRoute regex='^courseInfo$' }}">
-            <a href="{{ pathFor 'courseInfo' }}">
-                {{ mf 'courseToolbarTabs-courseInfoTabText' 'Course info'}}
+        <li class="{{ isActiveRoute regex='peopleAttending' }}">
+            <a href="/course/:_id/{{ this }}">
+                {{ mf 'courseToolbarTabs-peopleAttendingTabs' 'People Attending'}}
             </a>
         </li>
     </ul>

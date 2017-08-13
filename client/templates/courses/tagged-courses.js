@@ -45,12 +45,13 @@ Template.taggedCourses.helpers({
   'tag': function () {
     // Get reference to template instance
     var instance = Template.instance();
-    
+
     if (instance.subscriptionsReady()) {
        // Get tag from instance
        var tag = instance.tag;
 
        return tag;
     }
+
   }
 });

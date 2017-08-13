@@ -7,7 +7,7 @@
                 </a>
             </div>
             <div class="caption">
-              <a class="course-category" href="#">Mathematics</a> 
+              <a class="course-category" href="#">National University of Singapore</a>
                 <h2 class="course-card-title">
                     <a href ="/course/{{ _id }}">{{ title }}</a>
                 </h2>
@@ -23,7 +23,13 @@
                 </p>
                 {{/ with }}
             </div>
-            <!--
+            <button type="button" class="btn btn-success" id="addEvent">
+                I want to go!
+            </button>
+            <span class="label label-danger">{{ numLikes
+             }}</span>
+
+<!--
 <div class="modal-footer" style="text-align: left">
 <div class="progress">
 <div class="progress-bar" role="progressbar" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100" style="width: {{progress}};">

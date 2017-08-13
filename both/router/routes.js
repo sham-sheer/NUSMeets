@@ -18,11 +18,11 @@ Router.route('/profileSettings');
 
 Router.route('/settings');
 
-Router.route('course/:_id', {
+Router.route('/course/:_id', {
     name: 'course'
 });
 
-Router.route('course/:_id/info', {
+Router.route('/course/:_id/info', {
     name: 'courseInfo'
 });
 
@@ -36,4 +36,8 @@ Router.route('/singleresourcepage/info', {
 
 Router.route('license', {
   name: 'licenseQuestions'
+});
+
+Router.route('course/:_id/', function() {
+    this.render('likes')
 });
