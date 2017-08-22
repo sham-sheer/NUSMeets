@@ -1,7 +1,7 @@
 Meteor.startup(function() {
-    if (Courses.find().count() === 0) {
-        console.log("Adding default courses.");
-        var defaultCourses = [
+    if (Events.find().count() === 0) {
+        console.log("Adding default events.");
+        var defaultEvents = [
             {
                 'title': 'Introduction to Metrics for Smart Cities',
                 'author': 'Illya Nizyev',
@@ -12,10 +12,10 @@ Meteor.startup(function() {
             }
         ];
 
-        // Add default courses
-        _.each(defaultCourses, function (course) {
-            console.log("Adding course:", course.title);
-            Courses.insert(course);
+        // Add default events
+        _.each(defaultEvents, function (event) {
+            console.log("Adding event:", event.title);
+            Events.insert(event);
         })
     }
 });

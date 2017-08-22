@@ -1,29 +1,29 @@
-Template.course.created = function () {
+Template.event.created = function () {
   // Get reference to template instance
   var instance = this;
 
   // Get reference to router
   var router = Router.current();
 
-  // Get course ID from router
-  instance.courseId = router.params._id;
+  // Get event ID from router
+  instance.eventId = router.params._id;
 
-  // Subscribe to single course
-  instance.subscribe('singleCourse', instance.courseId);
+  // Subscribe to single event
+  instance.subscribe('singleEvent', instance.eventId);
 
   // Set the empty active lesson ID variable
   activeLessonID = new ReactiveVar(undefined);
 };
 
-Template.course.helpers({
-  'course': function () {
+Template.event.helpers({
+  'event': function () {
     // Get reference to Template instance
     var instance = Template.instance();
 
-    // Get current course
-    var course = new ReactiveVar();
-    course = Courses.findOne(instance.courseId);
+    // Get current event
+    var event = new ReactiveVar();
+    event = Events.findOne(instance.eventId);
 
-    return course;
+    return event;
   }
 });

@@ -1,12 +1,12 @@
-Template.editCourse.events({
-  'click #edit-course':function(event, template){
+Template.editEvent.events({
+  'click #edit-event':function(event, template){
     // Get reference to Router
     var router = Router.current();
 
-    // Get Course ID from router
-    var courseId = router.params._id;
+    // Get Event ID from router
+    var eventId = router.params._id;
 
-    // set editing course session variable to this course id
-    Session.set('editingCourseId', courseId);
+    // set editing event session variable to this event id
+    Session.set('editingEventId', eventId);
   }
 });

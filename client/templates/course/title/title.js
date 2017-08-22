@@ -1,18 +1,18 @@
-Template.courseTitle.helpers({
-  'editingThisCourse': function (event, template) {
+Template.eventTitle.helpers({
+  'editingThisEvent': function (event, template) {
     // Get reference to current router
     var router = Router.current();
 
-    // Get Course ID from router
-    var currentCourseId = router.params._id;
+    // Get Event ID from router
+    var currentEventId = router.params._id;
 
-    // Get value of editing course session variable
-    var editingCourseId = Session.get('editingCourseId')
+    // Get value of editing event session variable
+    var editingEventId = Session.get('editingEventId')
 
-    // See if user is editing current course
-    var editingCurrentCourse = (editingCourseId === currentCourseId);
+    // See if user is editing current event
+    var editingCurrentEvent = (editingEventId === currentEventId);
 
-    // return true if user is editing this course
-    return editingCurrentCourse;
+    // return true if user is editing this event
+    return editingCurrentEvent;
   }
 });

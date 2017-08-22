@@ -1,8 +1,8 @@
-<template name="courseSidebarSection">
+<template name="eventSidebarSection">
   {{#if Template.subscriptionsReady}}
   <div class="panel panel-default">
     <div class="panel-heading">
-      {{# if editingThisCourse }}
+      {{# if editingThisEvent }}
         {{> editableText
           collection="sections"
           context=section
@@ -30,7 +30,7 @@
       {{/ if }}
     {{/with }}
 
-    {{# if editingThisCourse }}
+    {{# if editingThisEvent }}
     <div class="panel-footer">
       {{> addLesson }}
     </div>

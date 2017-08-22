@@ -47,6 +47,9 @@ Schema.UserProfile = new SimpleSchema({
 });
 
 Schema.User = new SimpleSchema({
+  _id: {
+        type: String
+    },
   username: {
     type: String,
     optional: false,

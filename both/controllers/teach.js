@@ -1,4 +1,4 @@
-TeachController = AppController.extend({
+AddEventController = AppController.extend({
     data: {
 
     },

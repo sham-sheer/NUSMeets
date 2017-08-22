@@ -1,17 +1,17 @@
-CourseInfoController = AppController.extend({
+EventInfoController = AppController.extend({
   waitOn: function() {
-        // Wait for the course to be available
+        // Wait for the event to be available
         return [
-            this.subscribe('singleCourse', this.params._id),
-            this.subscribe('courseCoverImage', this.params._id)
+            this.subscribe('singleEvent', this.params._id),
+            this.subscribe('eventCoverImage', this.params._id)
         ];
     },
     data: function () {
-        // Return the course
-        return Courses.findOne();
+        // Return the event
+        return Events.findOne();
     },
     onAfterAction: function () {
-        //TODO: set meta course title without strange logged errors.
+        //TODO: set meta event title without strange logged errors.
         // specifically, uncommenting the following code produces some
         // errors in console on page load.
 
@@ -20,13 +20,13 @@ CourseInfoController = AppController.extend({
         //console.log(this.data()._id);
 
         //console.log(data);
-        // Get the course ID from the URL parameters
-        //var courseID = this.params._id;
+        // Get the event ID from the URL parameters
+        //var eventID = this.params._id;
 
-        // Get the course from the database
-        //var course  = Courses.find(courseID).fetch()[0]; // select the zeroeth array item
+        // Get the event from the database
+        //var event  = Events.find(eventID).fetch()[0]; // select the zeroeth array item
 
         // Set the site title for SEO
-        //Meta.setTitle(course.title);
+        //Meta.setTitle(event.title);
     }
 });

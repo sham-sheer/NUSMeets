@@ -1,7 +1,7 @@
-<template name="courseSidebar">
-    <div class="course-navigation">
+<template name="eventSidebar">
+    <div class="event-navigation">
         <div class="col-xs-12 col-md-3">
-            {{# if editingThisCourse }}
+            {{# if editingThisEvent }}
             <div class="panel">
                 {{> addSection }}
             </div>
@@ -9,12 +9,12 @@
             
             {{# if sectionIDs }}
               {{# each sectionIDs }}
-                {{> courseSidebarSection }}
+                {{> eventSidebarSection }}
               {{/ each }}
             {{ else }}
             <p>
                 {{ mf
-                'courseSidebar-noSectionsDefined-helpText'
+                'eventSidebar-noSectionsDefined-helpText'
                 'No sections have been defined. Go into edit mode to add one or more sections.'
                 }}
             </p>

@@ -1,4 +1,4 @@
-TestcourseInfoController = AppController.extend({
+TesteventInfoController = AppController.extend({
   data: {
 
   }

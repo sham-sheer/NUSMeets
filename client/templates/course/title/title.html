@@ -1,8 +1,8 @@
-<template name="courseTitle">
+<template name="eventTitle">
     <h1 class="panel-heading">
-        {{# if editingThisCourse }}
+        {{# if editingThisEvent }}
             {{> editableText
-                collection="courses"
+                collection="events"
                 field="title"
                 textarea=false
                 wysiwyg=false

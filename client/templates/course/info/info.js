@@ -1,6 +1,6 @@
-Template.courseInfo.helpers({
-  'editingThisCourse': function (event, template) {
-    // return true if user is editing this course
-    return editingThisCourseVar.get();
+Template.eventInfo.helpers({
+  'editingThisEvent': function (event, template) {
+    // return true if user is editing this event
+    return editingThisEventVar.get();
   }
 });

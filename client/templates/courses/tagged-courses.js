@@ -1,4 +1,4 @@
-Template.taggedCourses.onCreated(function(){
+Template.taggedEvents.onCreated(function(){
 
   // Get reference to template instance
   var instance = this;
@@ -11,35 +11,35 @@ Template.taggedCourses.onCreated(function(){
     // Getting Params of the URL
     instance.tag = router.params.tag;
 
-    // Subscribe to courses tagged with the current tag
-    instance.subscribe('taggedCourses', instance.tag);
+    // Subscribe to events tagged with the current tag
+    instance.subscribe('taggedEvents', instance.tag);
 
-    // Subscribe to course images
+    // Subscribe to event images
     instance.subscribe('images');
   });
 });
 
 
-Template.taggedCourses.rendered = function () {
+Template.taggedEvents.rendered = function () {
   // Get reference to template instance
   var instance = this;
 
   // Set the page site title for SEO
-  Meta.setTitle('Courses tagged "' + instance.tag + '"');
+  Meta.setTitle('Events tagged "' + instance.tag + '"');
 };
 
-Template.taggedCourses.helpers({
-  'courses': function () {
+Template.taggedEvents.helpers({
+  'events': function () {
     // Get reference to template instance
     var instance = Template.instance();
     if (instance.subscriptionsReady()) {
       // Get tag from template instance
       var tag = instance.tag;
 
-      // Fetch courses matching current tag
-      var taggedCourses = Courses.find({"keywords": tag}).fetch();
+      // Fetch events matching current tag
+      var taggedEvents = Events.find({"keywords": tag}).fetch();
 
-      return taggedCourses;
+      return taggedEvents;
     }
   },
   'tag': function () {

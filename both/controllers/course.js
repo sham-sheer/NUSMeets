@@ -1,28 +1,28 @@
-CourseController = AppController.extend({
+EventController = AppController.extend({
     waitOn: function() {
-        // course ID
-        var courseID = this.params._id;
+        // event ID
+        var eventID = this.params._id;
 
-        // Course subscriptions
+        // Event subscriptions
         return [
-             // Wait for the course to be available
-            this.subscribe("singleCourse", courseID),
+             // Wait for the event to be available
+            this.subscribe("singleEvent", eventID),
         ];
     },
     data: function () {
-        // Return the course
-        return Courses.findOne();
+        // Return the event
+        return Events.findOne();
     },
     onAfterAction: function () {
-        // Get the course ID from the URL parameters
-        var courseID = this.params._id;
+        // Get the event ID from the URL parameters
+        var eventID = this.params._id;
 
         // TODO: uncomment the following and figure out why it is generating a browser console error
 
-        // Get the course from the database
-        //var course  = Courses.find(courseID).fetch()[0]; // select the zeroeth array item
+        // Get the event from the database
+        //var event  = Events.find(eventID).fetch()[0]; // select the zeroeth array item
 
         // Set the site title for SEO
-        //Meta.setTitle(course.title);
+        //Meta.setTitle(event.title);
     }
 });

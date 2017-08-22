@@ -2,9 +2,9 @@ Template.addSection.events({
     'submit #add-section-form': function (event, instance) {
       event.preventDefault(); // prevent page from refreshing
         /*
-        / Add new section to the course
+        / Add new section to the event
         */
-        var sectionIDs, // list of section IDs in current course
+        var sectionIDs, // list of section IDs in current event
         sectionTitle, // Title of new section, from template
         newSection, // Object containing new section
         newSectionID; // ID of created section, returned from db insert
@@ -30,8 +30,8 @@ Template.addSection.events({
         // Add section ID to existing sections
         sectionIDs.push(newSectionID);
 
-        // Update the course with new section
-        Courses.update(this._id, {$set: {'sectionIDs': sectionIDs}});
+        // Update the event with new section
+        Events.update(this._id, {$set: {'sectionIDs': sectionIDs}});
 
         // Reset the value of section title field
         $("#section-title").val("");

@@ -1,0 +1,20 @@
+<template name="peopleAttending">
+  <div class="template-home">
+    <div class="page-header">
+      <h1>People Attending this Event</h1>
+    </div>
+  </div>
+  <div class="row">
+    <ul class="col-md-3">
+      {{ # each likedUsers }}
+      <div class="thumbnail people-card">
+
+        <div class="caption"  id="nameBoxes">
+          {{ this }}
+          <img src="images/man.png"/>
+        </div>
+        </div>
+        {{/each}}
+      </ul>
+  </div>
+</template>

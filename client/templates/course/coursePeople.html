@@ -1,0 +1,13 @@
+<template name="eventPeople">
+  {{>eventToolbar}}
+  <div class="row">
+    {{# with event }}
+    <div class="panel panel-default">
+      {{> eventTitle }}
+      <div class="panel-body">
+        {{> peopleAttending}}
+      </div>
+    </div>
+    {{/ with }}
+  </div>
+</template>

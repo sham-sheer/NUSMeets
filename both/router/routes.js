@@ -4,12 +4,16 @@ Router.route('/', {
 
 Router.route('/dashboard');
 
-Router.route('/teach');
+Router.route('/addEvents');
 
 Router.route('/learn');
 
+Router.route('/event/peopleAttending/:_id', {
+    name: 'peopleAttending'
+});
+
 Router.route('/learn/:tag', function() {
-    this.render('taggedCourses')
+    this.render('taggedEvents')
 });
 
 Router.route('/profile')
@@ -18,12 +22,16 @@ Router.route('/profileSettings');
 
 Router.route('/settings');
 
-Router.route('/course/:_id', {
-    name: 'course'
+Router.route('/event/:_id', {
+    name: 'event'
 });
 
-Router.route('/course/:_id/info', {
-    name: 'courseInfo'
+Router.route('/event/:_id/peopleAttending', {
+    name: 'eventPeople'
+});
+
+Router.route('/event/:_id/info', {
+    name: 'eventInfo'
 });
 
 Router.route('/singleresourcepage', {
@@ -31,13 +39,13 @@ Router.route('/singleresourcepage', {
 });
 
 Router.route('/singleresourcepage/info', {
-    name: 'testcourseInfo'
+    name: 'testeventInfo'
 });
 
 Router.route('license', {
   name: 'licenseQuestions'
 });
 
-Router.route('course/:_id/', function() {
+Router.route('event/:_id/', function() {
     this.render('likes')
 });

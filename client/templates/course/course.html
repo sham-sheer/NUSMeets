@@ -1,11 +1,11 @@
-<template name="course">
-  {{>courseToolbar}}
+<template name="event">
+  {{>eventToolbar}}
   <div class="row">
-    {{# with course }}
+    {{# with event }}
     <div class="panel panel-default">
-      {{> courseTitle }}
+      {{> eventTitle }}
       <div class="panel-body">
-        {{> courseSidebar }}
+        {{> eventSidebar }}
         {{> lesson }}
       </div>
     </div>

@@ -1,5 +1,5 @@
 Meteor.methods({
   'getLikesCount' : function () {
-    return Courses.find().count();
+    return Events.find().count();
   }
 });

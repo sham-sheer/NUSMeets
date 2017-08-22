@@ -1,4 +1,4 @@
-Template.courseCard.helpers({
+Template.eventCard.helpers({
     'truncateKeywords': function (truncate, keywords) {
         /*
         Truncate keywords to a set limit
@@ -17,47 +17,47 @@ Template.courseCard.helpers({
     },
     'numLikes': function () {
       // Get reference to Template instance
-      var course = this.title;
-      var countLikes = Likes.find({"Course":course}).count();
+      var event = this.title;
+      var countLikes = Likes.find({"Event":event}).count();
       return countLikes;
 
     }
 
 });
 
-Template.courseCard.events({
+Template.eventCard.events({
     'click #addEvent': function(event, template){
         // prevent default button submit
         var currentUsername = Meteor.user().username;
 
-        var course = this.title;
+        var event = this.title;
 
-        var courseId = this._id;
+        var eventId = this._id;
 
         Likes.insert({
-          "Course":course,
+          "Event":event,
           "user":currentUsername,
-          "courseId":courseId
+          "eventId":eventId
         });
         // add code to be run when count is ready
-        var count = Likes.find({"Course":course}).count();
+        var count = Likes.find({"Event":event}).count();
 
         Session.set('countVariable', count);
 
-        sAlert.success("You are going to " + course + " with " +  count +  " friends. Have a great time!");
+        sAlert.success("You are going to " + event + " with " +  count +  " friends. Have a great time!");
 
 
     }
 });
 
-Template.courseCard.onCreated(function(){
+Template.eventCard.onCreated(function(){
 
   // Get reference to template instance
   var instance = this;
 
 
   instance.autorun(function() {
-    // Subscribe to course images
+    // Subscribe to event images
     instance.subscribe('singleEventLikes', instance.title);
     instance.subscribe('likes');
     instance.subscribe('users', Meteor.user().username);

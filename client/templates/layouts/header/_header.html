@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{pathFor 'home'}}">Crowducate</a>
+                <a class="navbar-brand" href="{{pathFor 'home'}}">NUSMeets</a>
             </div>
 
             <div class="collapse navbar-collapse" id="main-nav">
@@ -24,20 +24,20 @@
                     </li>
                     <li class="{{ isActivePath regex='learn' }}">
                         <a href="{{ pathFor 'learn' }}">
-                            <i class="fa fa-book"></i>&nbsp;
-                            {{ mf '_header-learnTab-linkText' 'Learn' }}
+                            <i class="fa fa-calendar-o"></i>&nbsp;
+                            {{ mf '_header-learnTab-linkText' 'Events' }}
                         </a>
                     </li>
-                    <li class="{{ isActivePath regex='teach' }}">
+                    <li class="{{ isActivePath regex='addEvents' }}">
                         {{#if currentUser}}
-                        <a href="{{ pathFor 'teach' }}">
-                            <i class="fa fa-university"></i>&nbsp;
-                            {{ mf '_header-teachTab-linkText' 'Teach' }}
+                        <a href="{{ pathFor 'addEvents' }}">
+                            <i class="fa fa-plus"></i>&nbsp;
+                            {{ mf '_header-addEventsTab-linkText' 'Add Event' }}
                         </a>
                         {{else}}
                         <a href="{{ pathFor 'atSignIn' }}">
-                        <i class="fa fa-university"></i>&nbsp;
-                            {{ mf '_header-teachTab-login' 'Login to Teach' }}
+                        <i class="fa fa-sign-in"></i>&nbsp;
+                            {{ mf '_header-addEventsTab-login' 'Login to Add Event' }}
                         </a>
                         {{/if}}
 

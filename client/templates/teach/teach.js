@@ -1,51 +1,51 @@
-Template.teach.events({
-    'change #courseCoverImage': function (event, template) {
+Template.addEvents.events({
+    'change #eventCoverImage': function (event, template) {
         // Get the first file selected by the user
         // TODO: only allow the users to select one file
         // TODO: make sure the file is an image of allowed format (png, jpeg, webp)
         var image = event.target.files[0];
 
         // Insert the image into the database
-        // getting the image ID for use in the course object
+        // getting the image ID for use in the event object
         var imageObject = Images.insert(image);
 
         // The image id is stored in the image object
         var imageId = imageObject._id;
 
-        // Create a reactive var to be used when the course is added
+        // Create a reactive var to be used when the event is added
         imageIdVar = new ReactiveVar(imageId);
     },
-    'click #addCourse': function(event, template){
+    'click #addEvent': function(event, template){
         // prevent default button submit
         event.preventDefault();
         var currentUsername = Meteor.user().username;
-        // create an empty course container
-        var course = {
+        // create an empty event container
+        var event = {
             // Get form field values
-            title: template.find('#courseTitle').value, // string
+            title: template.find('#eventTitle').value, // string
 
-            // Cover Image ID comes from reactive var set in #courseCoverImage change event
+            // Cover Image ID comes from reactive var set in #eventCoverImage change event
             coverImageId: imageIdVar.get(),
 
             author: template.find('#authorName').value, // string
-            keywords: template.find('#courseKeywords').value.split(','), // split keywords to array
-            published: template.find('#coursePublished').value, // string
+            keywords: template.find('#eventKeywords').value.split(','), // split keywords to array
+            published: template.find('#eventPublished').value, // string
             about: template.find('#aboutText').value // Get the about text
         };
 
-        // Add course to collection
-        var courseId = Courses.insert(course);
+        // Add event to collection
+        var eventId = Events.insert(event);
 
-        // Redirect to the course page
-        Router.go( '/course/' + courseId );
+        // Redirect to the event page
+        Router.go( '/event/' + eventId );
     }
 });
 
-Template.teach.rendered = function() {
+Template.addEvents.rendered = function() {
     // Get an array of the existing tags
     var tagOptions = Tags.find().fetch();
 
-    $('#courseKeywords').selectize({
+    $('#eventKeywords').selectize({
         delimiter: ',',
         persist: false,
         valueField: 'name',

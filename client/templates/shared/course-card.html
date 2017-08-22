@@ -1,33 +1,40 @@
-<template name="courseCard">
+<template name="eventCard">
     <li class="col-md-3">
-        <div class="thumbnail course-card">
-            <div class="course-image">
-                <a href ="/course/{{ _id }}">
-                  <img alt="Course cover image" src="{{ coverImage.url }}" />
+        <div class="thumbnail event-card">
+            <div class="event-image">
+                <a href ="/event/{{ _id }}">
+                  <img alt="Event cover image" src="{{ coverImage.url }}" />
                 </a>
             </div>
             <div class="caption">
-              <a class="course-category" href="#">National University of Singapore</a>
-                <h2 class="course-card-title">
-                    <a href ="/course/{{ _id }}">{{ title }}</a>
+              <a class="event-category" href="#">National University of Singapore</a>
+                <h2 class="event-card-title">
+                    <a href ="/event/{{ _id }}">{{ title }}</a>
                 </h2>
 <!--                <p>by <a href="#">{{ author }}</a></p>-->
                 <p>{{{ truncate about 77 }}}</p>
                 {{# with truncateKeywords 6 keywords }}
                 <p>
                     {{# each truncatedKeywords }}
-                    <a class="tag-label" href="/learn/{{ this }}" title="Resources page for {{ this }}">
+                    <a class="tag-label" href="/learn/{{ this }}" title="Resources page for {{ this }}" id="tag">
                         <span class="label label-info">{{ this }}</span>
                     </a>
                     {{/each}}
                 </p>
                 {{/ with }}
             </div>
-            <button type="button" class="btn btn-success" id="addEvent">
+            <div class="row">
+            <button type="button" class="btn" id="addEvent">
                 I want to go!
             </button>
-            <span class="label label-danger">{{ numLikes
-             }}</span>
+            <button type="button" class="btn" id="checkPeople">
+              <a href ="/event/{{ _id }}/peopleAttending">
+                Who?
+              </a>
+          </button>
+          </div>
+          <span class="label label-danger" id="indicator">Attending: {{ numLikes }}</span>
+
 
 <!--
 <div class="modal-footer" style="text-align: left">

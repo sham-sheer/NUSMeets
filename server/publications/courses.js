@@ -1,15 +1,15 @@
-Meteor.publish('courses', function () {
-    return Courses.find();
+Meteor.publish('events', function () {
+    return Events.find();
 });
 
-Meteor.publish('publishedCourses', function () {
-    return Courses.find({"published": "true"});
+Meteor.publish('publishedEvents', function () {
+    return Events.find({"published": "true"});
 });
 
-Meteor.publish('taggedCourses', function (tag) {
-    return Courses.find({"keywords": tag});
+Meteor.publish('taggedEvents', function (tag) {
+    return Events.find({"keywords": tag});
 });
 
-Meteor.publish('singleCourse', function (courseId) {
-    return Courses.find({"_id": courseId});
+Meteor.publish('singleEvent', function (eventId) {
+    return Events.find({"_id": eventId});
 });

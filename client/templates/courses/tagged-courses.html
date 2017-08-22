@@ -1,12 +1,12 @@
-<template name="taggedCourses">
+<template name="taggedEvents">
     <h1>
-        {{ mf 'taggedCourses-headerText' 'Courses tagged' }}&nbsp;
+        {{ mf 'taggedEvents-headerText' 'Events tagged' }}&nbsp;
         <span class="label label-info">{{ tag }}</span>
     </h1>
     <div class="row">
         <ul class="thumbnails list-unstyled tag-search-result">
-            {{# each courses }}
-            {{> courseCard }}
+            {{# each events }}
+            {{> eventCard }}
             {{/ each }}
         </ul>
     </div>

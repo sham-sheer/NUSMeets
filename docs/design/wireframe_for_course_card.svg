@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="wireframe_for_course_card.svg">
+   sodipodi:docname="wireframe_for_event_card.svg">
   <defs
      id="defs4">
     <marker
@@ -456,7 +456,7 @@
          sodipodi:role="line"
          id="tspan7652"
          x="47.963959"
-         y="443.56018">Course title</tspan></text>
+         y="443.56018">Event title</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.60841358;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
        d="M 590.00966,276.18692 421.27329,380.83912"
@@ -552,7 +552,7 @@
          sodipodi:role="line"
          id="tspan7813"
          x="468.70563"
-         y="709.00354">Course rating</tspan></text>
+         y="709.00354">Event rating</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.77107465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)"
        d="M 505.41852,689.13658 439.74024,627.34447"
@@ -572,7 +572,7 @@
          sodipodi:role="line"
          x="334.22372"
          y="803.30103"
-         id="tspan7847">the course is</tspan></text>
+         id="tspan7847">the event is</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:9.93047047px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"

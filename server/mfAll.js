@@ -1,7 +1,7 @@
 mfPkg.syncAll({
   "fi": {
-    "teach-mainHeading": {
-      "key": "teach-mainHeading",
+    "addEvents-mainHeading": {
+      "key": "addEvents-mainHeading",
       "lang": "fi",
       "text": "Lisää uusi kurssi",
       "ctime": 1426598114016,
@@ -9,8 +9,8 @@ mfPkg.syncAll({
       "revisionId": "qrRwCwuDqtLdmjRHw",
       "_id": "dMbGRPoy92k3jn8cJ"
     },
-    "teach-addCourseForm-courseTitle-label": {
-      "key": "teach-addCourseForm-courseTitle-label",
+    "addEvents-addEventForm-eventTitle-label": {
+      "key": "addEvents-addEventForm-eventTitle-label",
       "lang": "fi",
       "text": "Otsikko",
       "ctime": 1426598155090,
@@ -18,8 +18,8 @@ mfPkg.syncAll({
       "revisionId": "X6sz2uvBArz5wSFZK",
       "_id": "758rqbLQWMqagrxZK"
     },
-    "teach-addCourseForm-courseTitle-coverPhotoLabel": {
-      "key": "teach-addCourseForm-courseTitle-coverPhotoLabel",
+    "addEvents-addEventForm-eventTitle-coverPhotoLabel": {
+      "key": "addEvents-addEventForm-eventTitle-coverPhotoLabel",
       "lang": "fi",
       "text": "Kansikuva",
       "ctime": 1426598192351,
@@ -27,8 +27,8 @@ mfPkg.syncAll({
       "revisionId": "oPDYEgLoXzAv4kpsB",
       "_id": "CNjYxPwTyHsaekLGk"
     },
-    "teach-addCourseForm-courseTitle-author-label": {
-      "key": "teach-addCourseForm-courseTitle-author-label",
+    "addEvents-addEventForm-eventTitle-author-label": {
+      "key": "addEvents-addEventForm-eventTitle-author-label",
       "lang": "fi",
       "text": "Tekijä",
       "ctime": 1426598205752,
@@ -36,8 +36,8 @@ mfPkg.syncAll({
       "revisionId": "CFSShWS3JYwCiRh6C",
       "_id": "m2dnb2KK2HaKrL8po"
     },
-    "teach-addCourseForm-courseTitle-author-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-author-placeholder",
+    "addEvents-addEventForm-eventTitle-author-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-author-placeholder",
       "lang": "fi",
       "text": "Tekijän nimi",
       "ctime": 1426598213087,
@@ -45,8 +45,8 @@ mfPkg.syncAll({
       "revisionId": "9thcdKHFS2QLCW8wQ",
       "_id": "WzTecTnZACmNwYuw4"
     },
-    "teach-addCourseForm-courseTitle-keywords-label": {
-      "key": "teach-addCourseForm-courseTitle-keywords-label",
+    "addEvents-addEventForm-eventTitle-keywords-label": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-label",
       "lang": "fi",
       "text": "Avainsanat",
       "ctime": 1426598217323,
@@ -54,8 +54,8 @@ mfPkg.syncAll({
       "revisionId": "sbnFM7zqCMMLZkiWh",
       "_id": "FNyK3m8TyX2Dm3X3h"
     },
-    "teach-addCourseForm-courseTitle-keywords-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-keywords-placeholder",
+    "addEvents-addEventForm-eventTitle-keywords-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-placeholder",
       "lang": "fi",
       "text": "Valitse joitain avainsanoja (esimerkiksi JavaScript, matematiikka)",
       "ctime": 1426598259312,
@@ -63,8 +63,8 @@ mfPkg.syncAll({
       "revisionId": "waDSwBW6XHwuJ5X2F",
       "_id": "4qrFzToBqfsYhmcYr"
     },
-    "teach-addCourseForm-courseTitle-unpublished-option": {
-      "key": "teach-addCourseForm-courseTitle-unpublished-option",
+    "addEvents-addEventForm-eventTitle-unpublished-option": {
+      "key": "addEvents-addEventForm-eventTitle-unpublished-option",
       "lang": "fi",
       "text": "Yksityinen",
       "ctime": 1426598306435,
@@ -72,8 +72,8 @@ mfPkg.syncAll({
       "revisionId": "z3Mda7e5Eb5mZrhtx",
       "_id": "5g6LYq2dysBcMPjaA"
     },
-    "teach-addCourseForm-courseTitle-published-option": {
-      "key": "teach-addCourseForm-courseTitle-published-option",
+    "addEvents-addEventForm-eventTitle-published-option": {
+      "key": "addEvents-addEventForm-eventTitle-published-option",
       "lang": "fi",
       "text": "Julkinen",
       "ctime": 1426598312025,
@@ -81,8 +81,8 @@ mfPkg.syncAll({
       "revisionId": "XPjZcBHJ6L3qtga76",
       "_id": "mLxJZRA8PgmWJACz6"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-label": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-label",
+    "addEvents-addEventForm-eventTitle-aboutEvent-label": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-label",
       "lang": "fi",
       "text": "Kurssikuvaus",
       "ctime": 1426598316776,
@@ -90,8 +90,8 @@ mfPkg.syncAll({
       "revisionId": "bfCD7JwMnfLES8drR",
       "_id": "fJ7fAJKCwNkoDSYiY"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-helpText": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-helpText",
+    "addEvents-addEventForm-eventTitle-aboutEvent-helpText": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-helpText",
       "lang": "fi",
       "text": "Kuvaa kurssin tavoitteet lyhyesti.",
       "ctime": 1426598342121,
@@ -117,8 +117,8 @@ mfPkg.syncAll({
       "revisionId": "vdqJcDBzR7K44jH6Z",
       "_id": "qFbkaEEZMF2Dpu2BJ"
     },
-    "courseMeta-courseAuthorAttribution": {
-      "key": "courseMeta-courseAuthorAttribution",
+    "eventMeta-eventAuthorAttribution": {
+      "key": "eventMeta-eventAuthorAttribution",
       "lang": "fi",
       "text": "Alkuperäinen tekijä",
       "ctime": 1426598390763,
@@ -144,8 +144,8 @@ mfPkg.syncAll({
       "revisionId": "trNk4eevcAYK9nX5b",
       "_id": "TvkNdBprDrXSNCdBk"
     },
-    "courseToolbarTabs-courseInfoTabText": {
-      "key": "courseToolbarTabs-courseInfoTabText",
+    "eventToolbarTabs-eventInfoTabText": {
+      "key": "eventToolbarTabs-eventInfoTabText",
       "lang": "fi",
       "text": "Kurssin tiedot",
       "ctime": 1426598436116,
@@ -153,8 +153,8 @@ mfPkg.syncAll({
       "revisionId": "xqsMJyBExgp856zk9",
       "_id": "RS9KHvroqc6NNqmhD"
     },
-    "courseToolbarTabs-courseMaterialTabText": {
-      "key": "courseToolbarTabs-courseMaterialTabText",
+    "eventToolbarTabs-eventMaterialTabText": {
+      "key": "eventToolbarTabs-eventMaterialTabText",
       "lang": "fi",
       "text": "Kurssimateriaali",
       "ctime": 1426598444522,
@@ -162,8 +162,8 @@ mfPkg.syncAll({
       "revisionId": "XvKSFr3NdwFo9xSwm",
       "_id": "y2E6XRpQh9S39JzWv"
     },
-    "editCourse-editCourseButtonText": {
-      "key": "editCourse-editCourseButtonText",
+    "editEvent-editEventButtonText": {
+      "key": "editEvent-editEventButtonText",
       "lang": "fi",
       "text": "Muokkaa kurssia",
       "ctime": 1426598450454,
@@ -171,8 +171,8 @@ mfPkg.syncAll({
       "revisionId": "3TkPXLYSYzKPgEhpC",
       "_id": "kbdcfhrizfNRtf8tm"
     },
-    "doneEditingCourse-doneEditingButtonText": {
-      "key": "doneEditingCourse-doneEditingButtonText",
+    "doneEditingEvent-doneEditingButtonText": {
+      "key": "doneEditingEvent-doneEditingButtonText",
       "lang": "fi",
       "text": "Muokkaus valmis.",
       "ctime": 1426598464117,
@@ -180,8 +180,8 @@ mfPkg.syncAll({
       "revisionId": "PsyQZGph2TR9YKg2h",
       "_id": "YAr2LhPuyECaZPCXq"
     },
-    "taggedCourses-headerText": {
-      "key": "taggedCourses-headerText",
+    "taggedEvents-headerText": {
+      "key": "taggedEvents-headerText",
       "lang": "fi",
       "text": "Kurssit avainsanoilla",
       "ctime": 1426598472553,
@@ -225,8 +225,8 @@ mfPkg.syncAll({
       "revisionId": "3v9WKHGbK9bHpvsrM",
       "_id": "MeqprW4LGAmty8uC2"
     },
-    "teach-addCourseForm-courseTitle-addCourse-button": {
-      "key": "teach-addCourseForm-courseTitle-addCourse-button",
+    "addEvents-addEventForm-eventTitle-addEvent-button": {
+      "key": "addEvents-addEventForm-eventTitle-addEvent-button",
       "lang": "fi",
       "text": "Lisää kurssi",
       "ctime": 1426598550913,
@@ -234,8 +234,8 @@ mfPkg.syncAll({
       "revisionId": "r4Xcgx3kQw9PcmSRq",
       "_id": "MSr8GHFdjaFcHbwpg"
     },
-    "teach-addCourseForm-courseTitle-published-label": {
-      "key": "teach-addCourseForm-courseTitle-published-label",
+    "addEvents-addEventForm-eventTitle-published-label": {
+      "key": "addEvents-addEventForm-eventTitle-published-label",
       "lang": "fi",
       "text": "Muuta julkiseksi, kun kurssi on valmis muiden nähtäväksi.",
       "ctime": 1426598581197,
@@ -243,8 +243,8 @@ mfPkg.syncAll({
       "revisionId": "WvhZZZ7hC9xjnmu6K",
       "_id": "29JZmR2FyvrCXbQ7z"
     },
-    "teach-courseTitle-placeholderText": {
-      "key": "teach-courseTitle-placeholderText",
+    "addEvents-eventTitle-placeholderText": {
+      "key": "addEvents-eventTitle-placeholderText",
       "lang": "fi",
       "text": "Kurssin nimi",
       "ctime": 1427286638669,
@@ -270,8 +270,8 @@ mfPkg.syncAll({
       "revisionId": "HFkz6Bd9qp8c53BNu",
       "_id": "t82jde6z8CgWfFJMQ"
     },
-    "_header-teachTab-linkText": {
-      "key": "_header-teachTab-linkText",
+    "_header-addEventsTab-linkText": {
+      "key": "_header-addEventsTab-linkText",
       "lang": "fi",
       "text": "Opeta",
       "ctime": 1427286652439,
@@ -299,8 +299,8 @@ mfPkg.syncAll({
     }
   },
   "ru": {
-    "teach-mainHeading": {
-      "key": "teach-mainHeading",
+    "addEvents-mainHeading": {
+      "key": "addEvents-mainHeading",
       "lang": "ru",
       "text": "Создать новый курс",
       "ctime": 1426598156232,
@@ -308,8 +308,8 @@ mfPkg.syncAll({
       "revisionId": "5tQixjNL3CBingcxv",
       "_id": "TdS4WHSpg3ztyGXQ2"
     },
-    "teach-addCourseForm-courseTitle-label": {
-      "key": "teach-addCourseForm-courseTitle-label",
+    "addEvents-addEventForm-eventTitle-label": {
+      "key": "addEvents-addEventForm-eventTitle-label",
       "lang": "ru",
       "text": "Заголовок",
       "ctime": 1426598293822,
@@ -317,8 +317,8 @@ mfPkg.syncAll({
       "revisionId": "T3CExzTaDamDsCCWv",
       "_id": "PGXejjDKwSenndEns"
     },
-    "teach-addCourseForm-courseTitle-author-label": {
-      "key": "teach-addCourseForm-courseTitle-author-label",
+    "addEvents-addEventForm-eventTitle-author-label": {
+      "key": "addEvents-addEventForm-eventTitle-author-label",
       "lang": "ru",
       "text": "Автор",
       "ctime": 1426598308316,
@@ -326,8 +326,8 @@ mfPkg.syncAll({
       "revisionId": "hoLqpa5MJy7M6rAM3",
       "_id": "6Tu6Aykhg6XN7Yb5p"
     },
-    "teach-addCourseForm-courseTitle-author-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-author-placeholder",
+    "addEvents-addEventForm-eventTitle-author-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-author-placeholder",
       "lang": "ru",
       "text": "Имя автора",
       "ctime": 1426598344218,
@@ -335,8 +335,8 @@ mfPkg.syncAll({
       "revisionId": "kwrjRn5ixLkXZbQqs",
       "_id": "x9sz4Z2P65i8X9ckr"
     },
-    "teach-addCourseForm-courseTitle-addCourse-button": {
-      "key": "teach-addCourseForm-courseTitle-addCourse-button",
+    "addEvents-addEventForm-eventTitle-addEvent-button": {
+      "key": "addEvents-addEventForm-eventTitle-addEvent-button",
       "lang": "ru",
       "text": "Добавить курс",
       "ctime": 1426598389042,
@@ -371,8 +371,8 @@ mfPkg.syncAll({
       "revisionId": "HbraRGTFzthdDjAqE",
       "_id": "GwDjrRL2YBb3wnXgd"
     },
-    "editCourse-editCourseButtonText": {
-      "key": "editCourse-editCourseButtonText",
+    "editEvent-editEventButtonText": {
+      "key": "editEvent-editEventButtonText",
       "lang": "ru",
       "text": "Редактировать курс",
       "ctime": 1426598423807,
@@ -416,8 +416,8 @@ mfPkg.syncAll({
       "revisionId": "bXJLdw6y4KEA2BANw",
       "_id": "KZkM4wB8ms9eAqDtZ"
     },
-    "teach-addCourseForm-courseTitle-keywords-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-keywords-placeholder",
+    "addEvents-addEventForm-eventTitle-keywords-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-placeholder",
       "lang": "ru",
       "text": "Укажите ключевые слова (например, JavaScript, Математика)",
       "ctime": 1426598533987,
@@ -425,8 +425,8 @@ mfPkg.syncAll({
       "revisionId": "aMtmYSBB8vNzuzuu7",
       "_id": "FSyS5rh2nuHDpjqH4"
     },
-    "teach-addCourseForm-courseTitle-unpublished-option": {
-      "key": "teach-addCourseForm-courseTitle-unpublished-option",
+    "addEvents-addEventForm-eventTitle-unpublished-option": {
+      "key": "addEvents-addEventForm-eventTitle-unpublished-option",
       "lang": "ru",
       "text": "Черновик",
       "ctime": 1426598545555,
@@ -434,8 +434,8 @@ mfPkg.syncAll({
       "revisionId": "RfzxYotHdwXiBDw7E",
       "_id": "rhiHBHLyRjbHxzqHr"
     },
-    "teach-addCourseForm-courseTitle-published-option": {
-      "key": "teach-addCourseForm-courseTitle-published-option",
+    "addEvents-addEventForm-eventTitle-published-option": {
+      "key": "addEvents-addEventForm-eventTitle-published-option",
       "lang": "ru",
       "text": "Опубликован",
       "ctime": 1426598570268,
@@ -443,8 +443,8 @@ mfPkg.syncAll({
       "revisionId": "ZkyHfqEMwEGdHh94P",
       "_id": "nG4Amb4rYijMKWkZJ"
     },
-    "teach-addCourseForm-courseTitle-published-label": {
-      "key": "teach-addCourseForm-courseTitle-published-label",
+    "addEvents-addEventForm-eventTitle-published-label": {
+      "key": "addEvents-addEventForm-eventTitle-published-label",
       "lang": "ru",
       "text": "Поменяйте на \"Опубликовано\", когда будете готовы показать материал другим пользователям.",
       "ctime": 1426598653582,
@@ -452,8 +452,8 @@ mfPkg.syncAll({
       "revisionId": "DhoALZYDuJtpjoe4R",
       "_id": "znTxpENA2QJyBEjhS"
     },
-    "teach-addCourseForm-courseTitle-coverPhotoLabel": {
-      "key": "teach-addCourseForm-courseTitle-coverPhotoLabel",
+    "addEvents-addEventForm-eventTitle-coverPhotoLabel": {
+      "key": "addEvents-addEventForm-eventTitle-coverPhotoLabel",
       "lang": "ru",
       "text": "Изображение ",
       "ctime": 1426598763600,
@@ -461,8 +461,8 @@ mfPkg.syncAll({
       "revisionId": "whEPt6JL4Qb7bDhbB",
       "_id": "3SbaG2wNtbb4TMLAC"
     },
-    "teach-addCourseForm-courseTitle-keywords-label": {
-      "key": "teach-addCourseForm-courseTitle-keywords-label",
+    "addEvents-addEventForm-eventTitle-keywords-label": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-label",
       "lang": "ru",
       "text": "Ключевые слова",
       "ctime": 1426598497978,
@@ -470,8 +470,8 @@ mfPkg.syncAll({
       "revisionId": "pmP4Gz5epazuJ33mp",
       "_id": "6Be8wamXqS24SYm6R"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-label": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-label",
+    "addEvents-addEventForm-eventTitle-aboutEvent-label": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-label",
       "lang": "ru",
       "text": "О курсе",
       "ctime": 1426598841867,
@@ -479,8 +479,8 @@ mfPkg.syncAll({
       "revisionId": "HuRJgjG58evfxQH4g",
       "_id": "KkHDWdrMLGiTp7SJt"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-helpText": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-helpText",
+    "addEvents-addEventForm-eventTitle-aboutEvent-helpText": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-helpText",
       "lang": "ru",
       "text": "Вкратце опишите о чем вам курс",
       "ctime": 1426598927847,
@@ -497,8 +497,8 @@ mfPkg.syncAll({
       "revisionId": "auZ8cNGPodCfhYnji",
       "_id": "nyYSfSRKSrnvuSotT"
     },
-    "taggedCourses-headerText": {
-      "key": "taggedCourses-headerText",
+    "taggedEvents-headerText": {
+      "key": "taggedEvents-headerText",
       "lang": "ru",
       "text": "Курсы по ключевым словам",
       "ctime": 1426598986541,
@@ -506,8 +506,8 @@ mfPkg.syncAll({
       "revisionId": "rMegG9gqrgKawMaew",
       "_id": "dKT65wvkXbGrNzQKa"
     },
-    "doneEditingCourse-doneEditingButtonText": {
-      "key": "doneEditingCourse-doneEditingButtonText",
+    "doneEditingEvent-doneEditingButtonText": {
+      "key": "doneEditingEvent-doneEditingButtonText",
       "lang": "ru",
       "text": "Закончить редактирование",
       "ctime": 1426598993874,
@@ -515,8 +515,8 @@ mfPkg.syncAll({
       "revisionId": "auQLN2thadtugvJam",
       "_id": "BykXuipFx75ZJQbDi"
     },
-    "courseToolbarTabs-courseMaterialTabText": {
-      "key": "courseToolbarTabs-courseMaterialTabText",
+    "eventToolbarTabs-eventMaterialTabText": {
+      "key": "eventToolbarTabs-eventMaterialTabText",
       "lang": "ru",
       "text": "Содержание курса",
       "ctime": 1426599009253,
@@ -524,8 +524,8 @@ mfPkg.syncAll({
       "revisionId": "DLxETvEGhQhFuELdg",
       "_id": "FEEmondiuMPgknWGm"
     },
-    "courseToolbarTabs-courseInfoTabText": {
-      "key": "courseToolbarTabs-courseInfoTabText",
+    "eventToolbarTabs-eventInfoTabText": {
+      "key": "eventToolbarTabs-eventInfoTabText",
       "lang": "ru",
       "text": "О курсе",
       "ctime": 1426599013177,
@@ -533,8 +533,8 @@ mfPkg.syncAll({
       "revisionId": "fSRgnygQ38uWyx3kv",
       "_id": "f6GaFpQtYjfSSP3dG"
     },
-    "courseMeta-courseAuthorAttribution": {
-      "key": "courseMeta-courseAuthorAttribution",
+    "eventMeta-eventAuthorAttribution": {
+      "key": "eventMeta-eventAuthorAttribution",
       "lang": "ru",
       "text": "добавлено",
       "ctime": 1426599037303,
@@ -551,8 +551,8 @@ mfPkg.syncAll({
       "revisionId": "DLMuju9ib2rWCgiED",
       "_id": "cPTwW8QxxWkYLtQfd"
     },
-    "teach-courseTitle-placeholderText": {
-      "key": "teach-courseTitle-placeholderText",
+    "addEvents-eventTitle-placeholderText": {
+      "key": "addEvents-eventTitle-placeholderText",
       "lang": "ru",
       "text": "Заголовок",
       "ctime": 1427790586381,
@@ -578,8 +578,8 @@ mfPkg.syncAll({
       "revisionId": "BW8KLPHWDoyjSWBW4",
       "_id": "k6NxucSPv4SjKf3jw"
     },
-    "_header-teachTab-linkText": {
-      "key": "_header-teachTab-linkText",
+    "_header-addEventsTab-linkText": {
+      "key": "_header-addEventsTab-linkText",
       "lang": "ru",
       "text": "Обучать",
       "ctime": 1427790817273,
@@ -589,8 +589,8 @@ mfPkg.syncAll({
     }
   },
   "de": {
-    "teach-addCourseForm-courseTitle-label": {
-      "key": "teach-addCourseForm-courseTitle-label",
+    "addEvents-addEventForm-eventTitle-label": {
+      "key": "addEvents-addEventForm-eventTitle-label",
       "lang": "de",
       "text": "Title",
       "ctime": 1431871021250,
@@ -598,8 +598,8 @@ mfPkg.syncAll({
       "revisionId": "wiptqWApEccoiojMm",
       "_id": "xKcD7DwdfKafBDfh5"
     },
-    "teach-courseTitle-placeholderText": {
-      "key": "teach-courseTitle-placeholderText",
+    "addEvents-eventTitle-placeholderText": {
+      "key": "addEvents-eventTitle-placeholderText",
       "lang": "de",
       "text": "Titelbild",
       "ctime": 1431871025077,
@@ -607,8 +607,8 @@ mfPkg.syncAll({
       "revisionId": "wEi5BnJPqMZ7DQHtT",
       "_id": "MqnQ8wRKQWK8ZbNps"
     },
-    "teach-addCourseForm-courseTitle-author-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-author-placeholder",
+    "addEvents-addEventForm-eventTitle-author-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-author-placeholder",
       "lang": "de",
       "text": "Name des Autors",
       "ctime": 1431871034428,
@@ -616,8 +616,8 @@ mfPkg.syncAll({
       "revisionId": "25fQC4T3pmN4MmRqp",
       "_id": "hAXBxL4u7YCFfJzwt"
     },
-    "teach-addCourseForm-courseTitle-author-label": {
-      "key": "teach-addCourseForm-courseTitle-author-label",
+    "addEvents-addEventForm-eventTitle-author-label": {
+      "key": "addEvents-addEventForm-eventTitle-author-label",
       "lang": "de",
       "text": "Autor",
       "ctime": 1431871067297,
@@ -625,8 +625,8 @@ mfPkg.syncAll({
       "revisionId": "JJy34RojbMvM7kiZh",
       "_id": "bTEjksjpfBrFczcjY"
     },
-    "teach-mainHeading": {
-      "key": "teach-mainHeading",
+    "addEvents-mainHeading": {
+      "key": "addEvents-mainHeading",
       "lang": "de",
       "text": "Neuen Kurs hinzufügen",
       "ctime": 1431871070633,
@@ -634,8 +634,8 @@ mfPkg.syncAll({
       "revisionId": "khcHDmH3bQyJkfxXr",
       "_id": "rnq9uQgPoWHqpfhAj"
     },
-    "teach-addCourseForm-courseTitle-coverPhotoLabel": {
-      "key": "teach-addCourseForm-courseTitle-coverPhotoLabel",
+    "addEvents-addEventForm-eventTitle-coverPhotoLabel": {
+      "key": "addEvents-addEventForm-eventTitle-coverPhotoLabel",
       "lang": "de",
       "text": "Titelbild",
       "ctime": 1431871096420,
@@ -643,8 +643,8 @@ mfPkg.syncAll({
       "revisionId": "4zzKBzT8fEt2DKSpy",
       "_id": "BcgPSaRTN3spSJCTA"
     },
-    "teach-addCourseForm-courseTitle-keywords-label": {
-      "key": "teach-addCourseForm-courseTitle-keywords-label",
+    "addEvents-addEventForm-eventTitle-keywords-label": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-label",
       "lang": "de",
       "text": "Schlagwörter",
       "ctime": 1431871099734,
@@ -652,8 +652,8 @@ mfPkg.syncAll({
       "revisionId": "5RX3Whm6guSDFYPaA",
       "_id": "2sb4X4ZrHYsvBr3hG"
     },
-    "teach-addCourseForm-courseTitle-keywords-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-keywords-placeholder",
+    "addEvents-addEventForm-eventTitle-keywords-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-placeholder",
       "lang": "de",
       "text": "Wähle einige Schlagwörter (z. B. JavaScript, Mathe)",
       "ctime": 1431871112294,
@@ -661,8 +661,8 @@ mfPkg.syncAll({
       "revisionId": "PtXZWmFTwFRx2RWd3",
       "_id": "djXWSAE5QPbwgRJN5"
     },
-    "teach-addCourseForm-courseTitle-published-label": {
-      "key": "teach-addCourseForm-courseTitle-published-label",
+    "addEvents-addEventForm-eventTitle-published-label": {
+      "key": "addEvents-addEventForm-eventTitle-published-label",
       "lang": "de",
       "text": "Setz auf \"Veröffentlicht\", sobald der Kurs für andere sichtbar sein soll.",
       "ctime": 1431871121083,
@@ -670,8 +670,8 @@ mfPkg.syncAll({
       "revisionId": "oeYamhmCBDZ3QJJP6",
       "_id": "7KKg2xwAHC7fykiX3"
     },
-    "teach-addCourseForm-courseTitle-unpublished-option": {
-      "key": "teach-addCourseForm-courseTitle-unpublished-option",
+    "addEvents-addEventForm-eventTitle-unpublished-option": {
+      "key": "addEvents-addEventForm-eventTitle-unpublished-option",
       "lang": "de",
       "text": "Nicht veröffentlicht",
       "ctime": 1431871127925,
@@ -679,8 +679,8 @@ mfPkg.syncAll({
       "revisionId": "grMu6wdzzx4JfL8Ex",
       "_id": "cj9mCS3XwgAd2uugB"
     },
-    "teach-addCourseForm-courseTitle-published-option": {
-      "key": "teach-addCourseForm-courseTitle-published-option",
+    "addEvents-addEventForm-eventTitle-published-option": {
+      "key": "addEvents-addEventForm-eventTitle-published-option",
       "lang": "de",
       "text": "Veröffentlicht",
       "ctime": 1431871152674,
@@ -688,8 +688,8 @@ mfPkg.syncAll({
       "revisionId": "KqNScMSoSQzw8oZrF",
       "_id": "FKsneTnCpWzbWZgvm"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-label": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-label",
+    "addEvents-addEventForm-eventTitle-aboutEvent-label": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-label",
       "lang": "de",
       "text": "Über diesen Kurs",
       "ctime": 1431871165297,
@@ -697,8 +697,8 @@ mfPkg.syncAll({
       "revisionId": "LvQvWfzo43LTkMtFc",
       "_id": "tnQXNDd4zs77t76FT"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-helpText": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-helpText",
+    "addEvents-addEventForm-eventTitle-aboutEvent-helpText": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-helpText",
       "lang": "de",
       "text": "Beschreibe kurz die Ziele des Kurses.",
       "ctime": 1431871182358,
@@ -706,8 +706,8 @@ mfPkg.syncAll({
       "revisionId": "8pFj7KXzMwKkx6uuj",
       "_id": "4MkdLkCCntzdMqLNL"
     },
-    "teach-addCourseForm-courseTitle-addCourse-button": {
-      "key": "teach-addCourseForm-courseTitle-addCourse-button",
+    "addEvents-addEventForm-eventTitle-addEvent-button": {
+      "key": "addEvents-addEventForm-eventTitle-addEvent-button",
       "lang": "de",
       "text": "Kurs hinzufügen",
       "ctime": 1431871195951,
@@ -742,8 +742,8 @@ mfPkg.syncAll({
       "revisionId": "qHppAxeuBxSreZdpP",
       "_id": "X2HmkaNkCNcrjDa6s"
     },
-    "_header-teachTab-linkText": {
-      "key": "_header-teachTab-linkText",
+    "_header-addEventsTab-linkText": {
+      "key": "_header-addEventsTab-linkText",
       "lang": "de",
       "text": "Lehren",
       "ctime": 1431871260822,
@@ -778,8 +778,8 @@ mfPkg.syncAll({
       "revisionId": "wrvhZDpiMijGJJbjR",
       "_id": "TQLisfvPRGTPom3Cj"
     },
-    "taggedCourses-headerText": {
-      "key": "taggedCourses-headerText",
+    "taggedEvents-headerText": {
+      "key": "taggedEvents-headerText",
       "lang": "de",
       "text": "Markierte Kurse",
       "ctime": 1431935039764,
@@ -787,8 +787,8 @@ mfPkg.syncAll({
       "revisionId": "kj6GuvbNwFsbtrced",
       "_id": "i56QyoMirBLnsQfey"
     },
-    "doneEditingCourse-doneEditingButtonText": {
-      "key": "doneEditingCourse-doneEditingButtonText",
+    "doneEditingEvent-doneEditingButtonText": {
+      "key": "doneEditingEvent-doneEditingButtonText",
       "lang": "de",
       "text": "Bearbeitung beenden.",
       "ctime": 1431935058772,
@@ -796,8 +796,8 @@ mfPkg.syncAll({
       "revisionId": "yRBSRhjnQ9gG3y9Ma",
       "_id": "GnHodtF4DsnXdYYJ7"
     },
-    "editCourse-editCourseButtonText": {
-      "key": "editCourse-editCourseButtonText",
+    "editEvent-editEventButtonText": {
+      "key": "editEvent-editEventButtonText",
       "lang": "de",
       "text": "Kurs editieren",
       "ctime": 1431935065137,
@@ -805,8 +805,8 @@ mfPkg.syncAll({
       "revisionId": "c6g5KY6aEgZskRABt",
       "_id": "54pYvgJdh98Qp7Qzw"
     },
-    "courseToolbarTabs-courseMaterialTabText": {
-      "key": "courseToolbarTabs-courseMaterialTabText",
+    "eventToolbarTabs-eventMaterialTabText": {
+      "key": "eventToolbarTabs-eventMaterialTabText",
       "lang": "de",
       "text": "Kursmaterial",
       "ctime": 1431935074706,
@@ -814,8 +814,8 @@ mfPkg.syncAll({
       "revisionId": "YSQkiMWnLZTHqWWzd",
       "_id": "Cxm8rCNqBjANxjTxe"
     },
-    "courseToolbarTabs-courseInfoTabText": {
-      "key": "courseToolbarTabs-courseInfoTabText",
+    "eventToolbarTabs-eventInfoTabText": {
+      "key": "eventToolbarTabs-eventInfoTabText",
       "lang": "de",
       "text": "Kursdetails",
       "ctime": 1431935077068,
@@ -850,8 +850,8 @@ mfPkg.syncAll({
       "revisionId": "2tS6SLHNwe9vjZn96",
       "_id": "toYSAfyu9q9nNarXd"
     },
-    "courseMeta-courseAuthorAttribution": {
-      "key": "courseMeta-courseAuthorAttribution",
+    "eventMeta-eventAuthorAttribution": {
+      "key": "eventMeta-eventAuthorAttribution",
       "lang": "de",
       "text": "ursprünglich von",
       "ctime": 1431935754940,
@@ -888,172 +888,172 @@ mfPkg.syncAll({
     }
   },
   "en": {
-    "teach-mainHeading": {
-      "key": "teach-mainHeading",
+    "addEvents-mainHeading": {
+      "key": "addEvents-mainHeading",
       "lang": "en",
-      "text": "Add new course",
+      "text": "Add new event",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "c5AhRdAXGgWiBCcfM",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 5,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "37wX3rzyGCM95sCKF"
     },
-    "teach-addCourseForm-courseTitle-label": {
-      "key": "teach-addCourseForm-courseTitle-label",
+    "addEvents-addEventForm-eventTitle-label": {
+      "key": "addEvents-addEventForm-eventTitle-label",
       "lang": "en",
       "text": "Title",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "fftsyfGn3GHinsbwE",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 11,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "ZdxAJX5BpE79uifnT"
     },
-    "teach-courseTitle-placeholderText": {
-      "key": "teach-courseTitle-placeholderText",
+    "addEvents-eventTitle-placeholderText": {
+      "key": "addEvents-eventTitle-placeholderText",
       "lang": "en",
-      "text": "Course title",
+      "text": "Event title",
       "ctime": 1427286106891,
       "mtime": 1427286106891,
       "revisionId": "4twDqfRW3AxX2o4ma",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 17,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "RdyPusHp5PtHNSmHj"
     },
-    "teach-addCourseForm-courseTitle-coverPhotoLabel": {
-      "key": "teach-addCourseForm-courseTitle-coverPhotoLabel",
+    "addEvents-addEventForm-eventTitle-coverPhotoLabel": {
+      "key": "addEvents-addEventForm-eventTitle-coverPhotoLabel",
       "lang": "en",
       "text": "Cover Photo",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "fThPnYjRxyGcA4TjD",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 21,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "3ymaWrednDDAoBbua"
     },
-    "teach-addCourseForm-courseTitle-author-label": {
-      "key": "teach-addCourseForm-courseTitle-author-label",
+    "addEvents-addEventForm-eventTitle-author-label": {
+      "key": "addEvents-addEventForm-eventTitle-author-label",
       "lang": "en",
       "text": "Author",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "DEwm52HDihwTDkWdE",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 27,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "pyRusdHZAZjzCPwJm"
     },
-    "teach-addCourseForm-courseTitle-author-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-author-placeholder",
+    "addEvents-addEventForm-eventTitle-author-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-author-placeholder",
       "lang": "en",
       "text": "Author Name",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "zCv6QHixnXuBid38j",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 32,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "whdCXxY8JjCMQNcXX"
     },
-    "teach-addCourseForm-courseTitle-keywords-label": {
-      "key": "teach-addCourseForm-courseTitle-keywords-label",
+    "addEvents-addEventForm-eventTitle-keywords-label": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-label",
       "lang": "en",
       "text": "Keywords",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "8suMmsYJSuQnJ2taJ",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 36,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "q7WmeGq6fNSrgHAzi"
     },
-    "teach-addCourseForm-courseTitle-keywords-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-keywords-placeholder",
+    "addEvents-addEventForm-eventTitle-keywords-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-placeholder",
       "lang": "en",
       "text": "Choose some tags (e.g. JavaScript, Math)",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "ZLdRgk8fBhsgRYbMZ",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 41,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "JhMmvLCoZjrL2c5eW"
     },
-    "teach-addCourseForm-courseTitle-published-label": {
-      "key": "teach-addCourseForm-courseTitle-published-label",
+    "addEvents-addEventForm-eventTitle-published-label": {
+      "key": "addEvents-addEventForm-eventTitle-published-label",
       "lang": "en",
-      "text": "Change to \"Published\" when course should be viewable to others.",
+      "text": "Change to \"Published\" when event should be viewable to others.",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "fYKXs2oPzRFia6NKj",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 46,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "tNtTfaaePSXkZhNcv"
     },
-    "teach-addCourseForm-courseTitle-unpublished-option": {
-      "key": "teach-addCourseForm-courseTitle-unpublished-option",
+    "addEvents-addEventForm-eventTitle-unpublished-option": {
+      "key": "addEvents-addEventForm-eventTitle-unpublished-option",
       "lang": "en",
       "text": "Unpublished",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "FAnpcR28gkcf3WJ5e",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 49,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "qTDqLbgukSNcYwbLm"
     },
-    "teach-addCourseForm-courseTitle-published-option": {
-      "key": "teach-addCourseForm-courseTitle-published-option",
+    "addEvents-addEventForm-eventTitle-published-option": {
+      "key": "addEvents-addEventForm-eventTitle-published-option",
       "lang": "en",
       "text": "Published",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "YFvxxv6xodWd7J4HT",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 50,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "kiWyGXoAnfaqeKRxR"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-label": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-label",
+    "addEvents-addEventForm-eventTitle-aboutEvent-label": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-label",
       "lang": "en",
-      "text": "About this course",
+      "text": "About this event",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "9EeDTSPhJmmji5NS8",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 55,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "XoRe3gjWwj8RDzM78"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-helpText": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-helpText",
+    "addEvents-addEventForm-eventTitle-aboutEvent-helpText": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-helpText",
       "lang": "en",
-      "text": "Briefly describe the objectives of this course.",
+      "text": "Briefly describe the objectives of this event.",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "2n4RBTL3fHmMWMNNW",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 59,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "c8n6uaG3bDTfukdaG"
     },
-    "teach-addCourseForm-courseTitle-addCourse-button": {
-      "key": "teach-addCourseForm-courseTitle-addCourse-button",
+    "addEvents-addEventForm-eventTitle-addEvent-button": {
+      "key": "addEvents-addEventForm-eventTitle-addEvent-button",
       "lang": "en",
-      "text": "Add Course",
+      "text": "Add Event",
       "ctime": 1426503739075,
       "mtime": 1426503739075,
       "revisionId": "YGbdtgKsBH9yniac5",
-      "file": "./client/templates/teach/teach.html",
+      "file": "./client/templates/addEvents/addEvents.html",
       "line": 62,
-      "template": "teach",
+      "template": "addEvents",
       "_id": "rKdhshw5Hejb572gt"
     },
     "_header-navbarToggle": {
@@ -1083,7 +1083,7 @@ mfPkg.syncAll({
     "_header-learnTab-linkText": {
       "key": "_header-learnTab-linkText",
       "lang": "en",
-      "text": "Learn",
+      "text": "Events",
       "ctime": 1427286106891,
       "mtime": 1427286106891,
       "revisionId": "wNgDTpKKwC69qAfyi",
@@ -1092,10 +1092,10 @@ mfPkg.syncAll({
       "template": "_header",
       "_id": "x76pPcvWJnvr5hfPC"
     },
-    "_header-teachTab-linkText": {
-      "key": "_header-teachTab-linkText",
+    "_header-addEventsTab-linkText": {
+      "key": "_header-addEventsTab-linkText",
       "lang": "en",
-      "text": "Teach",
+      "text": "AddEvent",
       "ctime": 1427286106891,
       "mtime": 1427286106891,
       "revisionId": "jv9m2qn88kRG673gX",
@@ -1140,64 +1140,64 @@ mfPkg.syncAll({
       "template": "_header",
       "_id": "LHpwTH9x7nM2xXwmK"
     },
-    "taggedCourses-headerText": {
-      "key": "taggedCourses-headerText",
+    "taggedEvents-headerText": {
+      "key": "taggedEvents-headerText",
       "lang": "en",
-      "text": "Courses tagged",
+      "text": "Events tagged",
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "p7vozxrAZhPhWwpGx",
-      "file": "./client/templates/courses/tagged-courses.html",
+      "file": "./client/templates/events/tagged-events.html",
       "line": 3,
-      "template": "taggedCourses",
+      "template": "taggedEvents",
       "_id": "SiJMtX7CJqoq8rbMA"
     },
-    "doneEditingCourse-doneEditingButtonText": {
-      "key": "doneEditingCourse-doneEditingButtonText",
+    "doneEditingEvent-doneEditingButtonText": {
+      "key": "doneEditingEvent-doneEditingButtonText",
       "lang": "en",
       "text": "Done editing.",
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "FrGu2L65fJEtCKd8L",
-      "file": "./client/templates/course/toolbar/done-editing.html",
+      "file": "./client/templates/event/toolbar/done-editing.html",
       "line": 6,
-      "template": "doneEditingCourse",
+      "template": "doneEditingEvent",
       "_id": "Xm2Zy3vCiZasRHnoH"
     },
-    "editCourse-editCourseButtonText": {
-      "key": "editCourse-editCourseButtonText",
+    "editEvent-editEventButtonText": {
+      "key": "editEvent-editEventButtonText",
       "lang": "en",
-      "text": "Edit course",
+      "text": "Edit event",
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "zdkWn4d4isrcSiJ2A",
-      "file": "./client/templates/course/toolbar/edit-course.html",
+      "file": "./client/templates/event/toolbar/edit-event.html",
       "line": 6,
-      "template": "editCourse",
+      "template": "editEvent",
       "_id": "siRxX5iKYsxATquiM"
     },
-    "courseToolbarTabs-courseMaterialTabText": {
-      "key": "courseToolbarTabs-courseMaterialTabText",
+    "eventToolbarTabs-eventMaterialTabText": {
+      "key": "eventToolbarTabs-eventMaterialTabText",
       "lang": "en",
-      "text": "Course material",
+      "text": "Event material",
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "JTeCtXQngDLzboT99",
-      "file": "./client/templates/course/toolbar/tabs.html",
+      "file": "./client/templates/event/toolbar/tabs.html",
       "line": 5,
-      "template": "courseToolbarTabs",
+      "template": "eventToolbarTabs",
       "_id": "LMrR6bQMqq88okQgy"
     },
-    "courseToolbarTabs-courseInfoTabText": {
-      "key": "courseToolbarTabs-courseInfoTabText",
+    "eventToolbarTabs-eventInfoTabText": {
+      "key": "eventToolbarTabs-eventInfoTabText",
       "lang": "en",
-      "text": "Course info",
+      "text": "Event info",
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "XSczRDb2p76nyMJWu",
-      "file": "./client/templates/course/toolbar/tabs.html",
+      "file": "./client/templates/event/toolbar/tabs.html",
       "line": 10,
-      "template": "courseToolbarTabs",
+      "template": "eventToolbarTabs",
       "_id": "A9TrfmR9aqntcty53"
     },
     "sectionAddLesson-lessonNamePlaceholderText": {
@@ -1207,7 +1207,7 @@ mfPkg.syncAll({
       "ctime": 1427286106891,
       "mtime": 1427286106891,
       "revisionId": "iJzwnvhnL5ogFv6fq",
-      "file": "./client/templates/course/sidebar/section/add-lesson/add-lesson.html",
+      "file": "./client/templates/event/sidebar/section/add-lesson/add-lesson.html",
       "line": 6,
       "template": "sectionAddLesson",
       "_id": "kgTx33dBgP7mgjyx2"
@@ -1219,7 +1219,7 @@ mfPkg.syncAll({
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "fN8XC9aQerPnSztYG",
-      "file": "./client/templates/course/sidebar/section/add-lesson/add-lesson.html",
+      "file": "./client/templates/event/sidebar/section/add-lesson/add-lesson.html",
       "line": 9,
       "template": "sectionAddLesson",
       "_id": "qf3FnCxnEF8xbcySz"
@@ -1231,21 +1231,21 @@ mfPkg.syncAll({
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "rzcW94pfn84rPzRvx",
-      "file": "./client/templates/course/sidebar/add-section/add-section.html",
+      "file": "./client/templates/event/sidebar/add-section/add-section.html",
       "line": 6,
       "template": "addSection",
       "_id": "xYzTG6FwBFKYTkZX5"
     },
-    "courseMeta-courseAuthorAttribution": {
-      "key": "courseMeta-courseAuthorAttribution",
+    "eventMeta-eventAuthorAttribution": {
+      "key": "eventMeta-eventAuthorAttribution",
       "lang": "en",
       "text": "originally by",
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "SKk8Mvfv2xNqks6va",
-      "file": "./client/templates/course/meta/meta.html",
+      "file": "./client/templates/event/meta/meta.html",
       "line": 4,
-      "template": "courseMeta",
+      "template": "eventMeta",
       "_id": "hCxjYdtEbgjztFnJ3"
     },
     "lessonEditToolbar-saveLessonEditButtonText": {
@@ -1255,7 +1255,7 @@ mfPkg.syncAll({
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "qamG2vdJhcEcoPKan",
-      "file": "./client/templates/course/lesson/edit/edit-toolbar.html",
+      "file": "./client/templates/event/lesson/edit/edit-toolbar.html",
       "line": 6,
       "template": "lessonEditToolbar",
       "_id": "qxuetY6zvzmNA7tZF"
@@ -1267,7 +1267,7 @@ mfPkg.syncAll({
       "ctime": 1426597721408,
       "mtime": 1426597721408,
       "revisionId": "DNR7qyYeF7SoBEgg5",
-      "file": "./client/templates/course/lesson/edit/edit-toolbar.html",
+      "file": "./client/templates/event/lesson/edit/edit-toolbar.html",
       "line": 10,
       "template": "lessonEditToolbar",
       "_id": "LPAqGrKFF3sooArEM"
@@ -1286,8 +1286,8 @@ mfPkg.syncAll({
     }
   },
   "fa": {
-    "teach-addCourseForm-courseTitle-label": {
-      "key": "teach-addCourseForm-courseTitle-label",
+    "addEvents-addEventForm-eventTitle-label": {
+      "key": "addEvents-addEventForm-eventTitle-label",
       "lang": "fa",
       "text": "عنوان",
       "ctime": 1434057354533,
@@ -1295,8 +1295,8 @@ mfPkg.syncAll({
       "revisionId": "kZQzRCqot2dX3FRqk",
       "_id": "GEGgFRR4tWkfzD93o"
     },
-    "teach-courseTitle-placeholderText": {
-      "key": "teach-courseTitle-placeholderText",
+    "addEvents-eventTitle-placeholderText": {
+      "key": "addEvents-eventTitle-placeholderText",
       "lang": "fa",
       "text": "عنوان دوره",
       "ctime": 1434057389667,
@@ -1304,8 +1304,8 @@ mfPkg.syncAll({
       "revisionId": "nN5oZQ97rMLpinZ29",
       "_id": "LMN6rdQJtMhTnJZdJ"
     },
-    "teach-addCourseForm-courseTitle-coverPhotoLabel": {
-      "key": "teach-addCourseForm-courseTitle-coverPhotoLabel",
+    "addEvents-addEventForm-eventTitle-coverPhotoLabel": {
+      "key": "addEvents-addEventForm-eventTitle-coverPhotoLabel",
       "lang": "fa",
       "text": "عکس روی جلد",
       "ctime": 1434057403411,
@@ -1313,8 +1313,8 @@ mfPkg.syncAll({
       "revisionId": "oJes4ovrf92k8WPKd",
       "_id": "cNeaSRi4q7gppJHqq"
     },
-    "teach-addCourseForm-courseTitle-author-label": {
-      "key": "teach-addCourseForm-courseTitle-author-label",
+    "addEvents-addEventForm-eventTitle-author-label": {
+      "key": "addEvents-addEventForm-eventTitle-author-label",
       "lang": "fa",
       "text": "نویسنده",
       "ctime": 1434057463267,
@@ -1322,8 +1322,8 @@ mfPkg.syncAll({
       "revisionId": "qukYRb87DJj3N5vmB",
       "_id": "jwCmGkcN3scsQfSog"
     },
-    "teach-addCourseForm-courseTitle-author-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-author-placeholder",
+    "addEvents-addEventForm-eventTitle-author-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-author-placeholder",
       "lang": "fa",
       "text": "نام نویسنده",
       "ctime": 1434057475614,
@@ -1331,8 +1331,8 @@ mfPkg.syncAll({
       "revisionId": "vghF5YcJNhDKSXdR3",
       "_id": "upBLTB87bPREjDX3s"
     },
-    "teach-addCourseForm-courseTitle-keywords-label": {
-      "key": "teach-addCourseForm-courseTitle-keywords-label",
+    "addEvents-addEventForm-eventTitle-keywords-label": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-label",
       "lang": "fa",
       "text": "کلید واژه ها",
       "ctime": 1434057569101,
@@ -1358,8 +1358,8 @@ mfPkg.syncAll({
       "revisionId": "2aAdfFMy67DyqcmnT",
       "_id": "9HCfGgz47QxsPvSLt"
     },
-    "_header-teachTab-linkText": {
-      "key": "_header-teachTab-linkText",
+    "_header-addEventsTab-linkText": {
+      "key": "_header-addEventsTab-linkText",
       "lang": "fa",
       "text": "آموزش",
       "ctime": 1434057646064,
@@ -1394,8 +1394,8 @@ mfPkg.syncAll({
       "revisionId": "G9tfyXSmw9hs2j7tM",
       "_id": "BTbBum6NJjn9bYveB"
     },
-    "taggedCourses-headerText": {
-      "key": "taggedCourses-headerText",
+    "taggedEvents-headerText": {
+      "key": "taggedEvents-headerText",
       "lang": "fa",
       "text": "دوره های برچسب خورده",
       "ctime": 1434057730365,
@@ -1403,8 +1403,8 @@ mfPkg.syncAll({
       "revisionId": "nTx33iSPzfqoBtK7s",
       "_id": "sv9xvZZ8JFuir3W5W"
     },
-    "doneEditingCourse-doneEditingButtonText": {
-      "key": "doneEditingCourse-doneEditingButtonText",
+    "doneEditingEvent-doneEditingButtonText": {
+      "key": "doneEditingEvent-doneEditingButtonText",
       "lang": "fa",
       "text": "پایان ویرایش",
       "ctime": 1434057733100,
@@ -1412,8 +1412,8 @@ mfPkg.syncAll({
       "revisionId": "nhTt4S7p7JviS92Wg",
       "_id": "cQGmNbc9qdkjer7kw"
     },
-    "editCourse-editCourseButtonText": {
-      "key": "editCourse-editCourseButtonText",
+    "editEvent-editEventButtonText": {
+      "key": "editEvent-editEventButtonText",
       "lang": "fa",
       "text": "ویرایش دوره",
       "ctime": 1434057741646,
@@ -1421,8 +1421,8 @@ mfPkg.syncAll({
       "revisionId": "KqcSAe8FhQ5roXBky",
       "_id": "ixK8CSSDKyZQw8Jcs"
     },
-    "courseToolbarTabs-courseMaterialTabText": {
-      "key": "courseToolbarTabs-courseMaterialTabText",
+    "eventToolbarTabs-eventMaterialTabText": {
+      "key": "eventToolbarTabs-eventMaterialTabText",
       "lang": "fa",
       "text": "مطالب دوره",
       "ctime": 1434057750769,
@@ -1430,8 +1430,8 @@ mfPkg.syncAll({
       "revisionId": "uPeTje7cxm2YajqPT",
       "_id": "RtWZaeoBS7v5BoTWg"
     },
-    "courseToolbarTabs-courseInfoTabText": {
-      "key": "courseToolbarTabs-courseInfoTabText",
+    "eventToolbarTabs-eventInfoTabText": {
+      "key": "eventToolbarTabs-eventInfoTabText",
       "lang": "fa",
       "text": "اطلاعات دوره",
       "ctime": 1434057757864,
@@ -1466,8 +1466,8 @@ mfPkg.syncAll({
       "revisionId": "DitvFw2XwkBrAcER8",
       "_id": "X6L2qwnG3sxjwfBxs"
     },
-    "teach-addCourseForm-courseTitle-addCourse-button": {
-      "key": "teach-addCourseForm-courseTitle-addCourse-button",
+    "addEvents-addEventForm-eventTitle-addEvent-button": {
+      "key": "addEvents-addEventForm-eventTitle-addEvent-button",
       "lang": "fa",
       "text": "افزودن دوره",
       "ctime": 1434057826268,
@@ -1475,8 +1475,8 @@ mfPkg.syncAll({
       "revisionId": "cdWzDDFseAikfEoxW",
       "_id": "uaLS7ofDbGbqimjxZ"
     },
-    "courseMeta-courseAuthorAttribution": {
-      "key": "courseMeta-courseAuthorAttribution",
+    "eventMeta-eventAuthorAttribution": {
+      "key": "eventMeta-eventAuthorAttribution",
       "lang": "fa",
       "text": "در اصل توسط",
       "ctime": 1434057921713,
@@ -1520,8 +1520,8 @@ mfPkg.syncAll({
       "revisionId": "sK6bj6v3RMipL3nSs",
       "_id": "3eKaXX2ywPSPRg776"
     },
-    "teach-mainHeading": {
-      "key": "teach-mainHeading",
+    "addEvents-mainHeading": {
+      "key": "addEvents-mainHeading",
       "lang": "fa",
       "text": "افزودن دوره ی نو ",
       "ctime": 1434058181464,
@@ -1529,8 +1529,8 @@ mfPkg.syncAll({
       "revisionId": "RpnnKtnuK4h9tWqcX",
       "_id": "y4NPGJ4vrsTmEuefk"
     },
-    "teach-addCourseForm-courseTitle-published-label": {
-      "key": "teach-addCourseForm-courseTitle-published-label",
+    "addEvents-addEventForm-eventTitle-published-label": {
+      "key": "addEvents-addEventForm-eventTitle-published-label",
       "lang": "fa",
       "text": "هنگامیکه دوره باید برای دیگران قابل مشاهده باشد به \"منتشر شده\" تغییر دهید ",
       "ctime": 1434058242428,
@@ -1538,8 +1538,8 @@ mfPkg.syncAll({
       "revisionId": "MgPrpyWE6crgwcavm",
       "_id": "Z7wYL2E6Ke8LuTjC7"
     },
-    "teach-addCourseForm-courseTitle-unpublished-option": {
-      "key": "teach-addCourseForm-courseTitle-unpublished-option",
+    "addEvents-addEventForm-eventTitle-unpublished-option": {
+      "key": "addEvents-addEventForm-eventTitle-unpublished-option",
       "lang": "fa",
       "text": "منتشر نشده",
       "ctime": 1434058265103,
@@ -1547,8 +1547,8 @@ mfPkg.syncAll({
       "revisionId": "f8jHhWf7rfanJZhEv",
       "_id": "kYCmeCEA8PL5DZHm9"
     },
-    "teach-addCourseForm-courseTitle-published-option": {
-      "key": "teach-addCourseForm-courseTitle-published-option",
+    "addEvents-addEventForm-eventTitle-published-option": {
+      "key": "addEvents-addEventForm-eventTitle-published-option",
       "lang": "fa",
       "text": "منتشر شده",
       "ctime": 1434058271714,
@@ -1556,8 +1556,8 @@ mfPkg.syncAll({
       "revisionId": "8bjBynNCdWjpcB2if",
       "_id": "wJkrT6YPNYNvQvSNT"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-label": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-label",
+    "addEvents-addEventForm-eventTitle-aboutEvent-label": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-label",
       "lang": "fa",
       "text": "در باره این دوره ",
       "ctime": 1434058295691,
@@ -1565,8 +1565,8 @@ mfPkg.syncAll({
       "revisionId": "EgndrCmJvKWAK4PYC",
       "_id": "pNeTmfhYgBWasLXeF"
     },
-    "teach-addCourseForm-courseTitle-aboutCourse-helpText": {
-      "key": "teach-addCourseForm-courseTitle-aboutCourse-helpText",
+    "addEvents-addEventForm-eventTitle-aboutEvent-helpText": {
+      "key": "addEvents-addEventForm-eventTitle-aboutEvent-helpText",
       "lang": "fa",
       "text": "به طور خلاصه اهداف این دوره آموزشی را شرح دهید",
       "ctime": 1434058315986,
@@ -1574,8 +1574,8 @@ mfPkg.syncAll({
       "revisionId": "2RTyEnHdL7X9DqXfY",
       "_id": "J8msMWnKXn37ytLjK"
     },
-    "teach-addCourseForm-courseTitle-keywords-placeholder": {
-      "key": "teach-addCourseForm-courseTitle-keywords-placeholder",
+    "addEvents-addEventForm-eventTitle-keywords-placeholder": {
+      "key": "addEvents-addEventForm-eventTitle-keywords-placeholder",
       "lang": "fa",
       "text": "تعدادی برچسب انتخاب نمایید (مانند جاوا اسکریپت، ریاضیات)",
       "ctime": 1434058347999,

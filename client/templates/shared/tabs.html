@@ -1,0 +1,14 @@
+<template name="eventToolbarTabs">
+    <ul class="nav nav-pills toolbar-pages-list navbar-left">
+        <li>
+            <a href="{{ pathFor 'event' }}">
+                {{ mf 'eventToolbarTabs-eventMaterialTabText' 'Event material' }}
+            </a>
+        </li>
+        <li>
+            <a href="/event/{{ _id }}/peopleAttending">
+                {{ mf 'eventToolbarTabs-peopleAttendingTabs' 'People Attending'}}
+            </a>
+        </li>
+    </ul>
+</template>
